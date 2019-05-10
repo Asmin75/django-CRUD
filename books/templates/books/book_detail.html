@@ -1,0 +1,7 @@
+{% extends 'books/base.htm.html' %}
+{% block title %}Book Detail{% endblock %}
+{% block body %}
+    <h1>Book Detail</h1>
+    <h2>Name: {{ book.name }}</h2>
+    Pages:{{ book.pages }}
+{% endblock %}
